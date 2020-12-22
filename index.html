@@ -11,6 +11,7 @@
     <title>YRDSB teachassist login</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link href="teacher.css" rel="stylesheet" media="screen">
+    <script src="./script.js"></script>
     <style type="text/css">
         <!--
         .style1 {
@@ -81,18 +82,20 @@
                                     <h2>
                                         <font color="red"></font>
                                     </h2>
-                                    <form action="index.php" method="post" name="loginForm" id="loginForm"
+                                    <form onSubmit="return checkAnswer();" name="loginForm" id="loginForm"
                                         target="_top">
                                         <input type="hidden" name="subject_id" value="0">
 
                                         <table border="0" cellspacing="1" cellpadding="1">
                                             <tr>
                                                 <td>User&nbsp;name</td>
-                                                <td><input type="text" name="username" size="10" border="0"></td>
+                                                <td><input id="username" type="text" name="username" size="10"
+                                                        border="0"></td>
                                             </tr>
                                             <tr>
                                                 <td>Password</td>
-                                                <td><input type="password" name="password" size="10" border="0"></td>
+                                                <td><input id="password" type="password" name="password" size="10"
+                                                        border="0"></td>
                                             </tr>
                                         </table>
                                         <div align="center">
