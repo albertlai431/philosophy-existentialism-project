@@ -1,0 +1,209 @@
+<html>
+
+<head>
+    <link href='https://fonts.googleapis.com/css?family=Alfa+Slab+One|Roboto:700,400,300|Roboto+Condensed|Roboto+Slab'
+        rel='stylesheet' type='text/css'>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Student Reports</title>
+    <meta name="viewport"
+        content="user-scalable=false,width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" />
+    <meta name="mobileoptimized" content="320" />
+    <meta name="HandheldFriendly" content="true" />
+    <link rel="icon" type="image/png" href="./images/favicon.ico">
+    <link href="style.css" rel="stylesheet" media="screen">
+    <script type="text/javascript">
+
+
+        function validate_required(field, alerttxt) {
+            with (field) {
+                if (value == null || value == "") {
+                    alert(alerttxt); return false;
+                }
+                else { return true }
+            }
+        }
+
+
+        function validate_form(thisform) {
+            with (thisform) {
+                if (validate_required(confirm, "Checkbox must be checked in order to request a change of password") == false) {
+                    confirm.focus(); return false;
+                }
+            }
+        }
+
+
+
+        var digitsOnly = /[1234567890]/g;
+        var floatOnly = /[0-9\.]/g;
+        var alphaOnly = /[A-Za-z]/g;
+        var alphaNumeric = /^\w+$/g;
+
+        function restrictCharacters(myfield, e, restrictionType) {
+            if (!e) var e = window.event;
+            if (e.keyCode) code = e.keyCode;
+            else if (e.which) code = e.which;
+            var character = String.fromCharCode(code);
+
+            // if they pressed esc... remove focus from field...
+            if (code == 27) { myfield.blur(); return false; }
+            if (code != 8 && code != 9) {
+                if (character.match(restrictionType)) {
+                    return true;
+                } else {
+                    return false;
+                }
+            }
+        }
+    </script>
+
+    <script language="JavaScript" src="../../tigra/calendar_db.js"></script>
+    <link rel="stylesheet" href="../../tigra/calendar.css">
+</head>
+
+<body bgcolor="#e7ffe7">
+
+
+    <div align="center">
+
+
+        <div class="yellow_message box">
+            <p id="guidance_text"><b>Guidance Appointment with M. Camus Happeing NOW: <a href="">Join Here</a> </b>
+            </p>
+        </div>
+
+
+        <div class="green_border_message box">
+            <table border="0" width="100%">
+                <tr>
+                    <td>
+                        <h1>Student Reports for 349865215: Idu-Wana Dai </h1>
+                    </td>
+                    <td align="right">
+                        <a href="../index.html" class="button_red">
+                            <font color="white">log&nbsp;out</font>
+                        </a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+
+
+
+
+
+
+
+
+
+        <div class="green_border_message box">
+            Courses listed with a <b>current mark</b> have reports that are available for viewing.</p>
+            <p>Click on the <b>current mark</b> to view that specific report.</p>
+            <div align="center">
+                <table width="85%" border="0" cellspacing="0" cellpadding="5">
+                    <tr>
+                        <th>Course Name</th>
+                        <th>Date</th>
+                        <th>Mark</th>
+                    </tr>
+
+
+                    <tr bgcolor="#ddffff">
+                        <td>
+                            BOH4M1-01 : Organizational Studies: Organization Behaviour and Human Resources <br>
+                            Block: 1 - rm. 224
+                        </td>
+                        <td width="30%" align="center">
+                            2020-09-08 ~
+                            2021-02-01 </td>
+                        <!--td></td-->
+                        <td align="right">
+                            <a>
+                                current mark = 23.0%</a>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#eeffff">
+                        <td>
+                            HZT4U1-01 : Philosophy: Questions and Theories <br>
+                            Block: 2 - rm. 205
+                        </td>
+                        <td width="30%" align="center">
+                            2020-09-08 ~
+                            2021-02-01 </td>
+                        <!--td></td-->
+                        <td align="right">
+                            <a>
+                                current mark = 75.2%</a>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#ddffff">
+                        <td>
+                            SPH4U1-01 : Physics <br>
+                            Block: 4 - rm. 122
+                        </td>
+                        <td width="30%" align="center">
+                            2020-09-08 ~
+                            2021-02-01 </td>
+                        <!--td></td-->
+                        <td align="right">
+                            <a>
+                                current mark = -6.0%</a>
+                        </td>
+                    </tr>
+                    <tr bgcolor="#eeffff">
+                        <td>
+                            ENG4U1-03 : English <br>
+                            Block: 5 - rm. 117
+                        </td>
+                        <td width="30%" align="center">
+                            2020-09-08 ~
+                            2021-02-01 </td>
+                        <!--td></td-->
+                        <td align="right">
+                            <a>
+                                current mark = 11.0%</a>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <p align="center">&nbsp;</p>
+            </td>
+        </div>
+        <hr>
+        <div class="red_border_message box">
+            <h2>Pierre Elliott Trudeau High School</h2>
+            <h3>Calendar</h3>
+            <div class="blue_border_message box">
+                <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td bgcolor="#fc2323">
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td valign="top" bgcolor="#dddddd"><i>yesterday</i><br><b>Sat., Dec. 19, 2020</b>
+                                    </td>
+                                    <td valign="top" bgcolor="#ff9999"><i>today</i><br><b>Sun., Dec. 20, 2020</b> </td>
+                                    <td valign="top" bgcolor="#eeeeee"><i>tomorrow</i><br><b>Mon., Dec. 21, 2020</b>
+                                        <div class="box" style="background:#d3c7b2">Winter Break</div>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+
+
+
+
+        <hr>
+        <p align="center"><span class="style1">copyright &copy; 2020 <a href="http://www.teachassist.ca"
+                    target="_blank"><b><i>
+                            <font color="#066006">teach</font>
+                            <font color="#039700">assist foundation</font>
+                        </i></b></a></span></p>
+
+</body>
+
+</html>
