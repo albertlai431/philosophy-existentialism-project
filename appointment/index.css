@@ -793,9 +793,9 @@ a#backHome {
   background: none !important;
   padding: 1px !important;
 }
-.he.peckes .message {
+/* .he.peckes .message {
   background: url(ios-he.png) bottom left no-repeat transparent;
-}
+} */
 .me.peckes .message {
   background: url(./img/ios-me.png) bottom right no-repeat transparent;
 }
@@ -1052,7 +1052,7 @@ a#emojiLink {
 }
 /* Track */
 #wrapScreen ::-webkit-scrollbar-track {
-  background: url(scrollbar-back.png) repeat-y center center transparent;
+  /*background: url(scrollbar-back.png) repeat-y center center transparent;*/
   border-radius: 3px;
 }
 /* Handle */
