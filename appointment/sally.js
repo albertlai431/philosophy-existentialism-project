@@ -66,12 +66,17 @@ var MessagingSim = function (chat) {
     {
       name: "Zoey",
       text:
-        "Right, so for the past two months, I've been slaving away like a dog, putting 16, 17 hours tops into my school work.",
+        "Right, so for the past two months, I've been following your advice to work harder.",
     },
     {
       name: "Zoey",
       text:
-        "And it actually worked! My grades went from 60s to 90s (except for that pesky Business Leadership course).",
+        "Well ACTUALLY, I've slaving away like a dog, putting 16, 17 hours tops into my school work.",
+    },
+    {
+      name: "Zoey",
+      text:
+        "And it worked! My grades went from 60s to 90s (except for that pesky Business Leadership course).",
     },
     {
       name: "Zoey",
