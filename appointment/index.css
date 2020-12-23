@@ -1,0 +1,2080 @@
+html,
+body,
+div,
+span,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+abbr,
+address,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+samp,
+small,
+strong,
+sub,
+sup,
+var,
+b,
+i,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+body {
+  line-height: 20px;
+  background: #f9f9f9;
+  font-size: 17px;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+nav ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: none;
+}
+a,
+a:hover,
+a:visited {
+  margin: 0;
+  padding: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+  color: #0280fb;
+}
+ins {
+  color: #000;
+  text-decoration: none;
+}
+mark {
+  color: #000;
+  font-style: italic;
+  font-weight: bold;
+}
+del {
+  text-decoration: line-through;
+}
+abbr[title],
+dfn[title] {
+  border-bottom: 1px dotted;
+  cursor: help;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+input,
+select {
+  vertical-align: middle;
+}
+strong {
+  font-weight: bold;
+}
+h1 {
+  font-size: 2em;
+}
+img {
+  max-width: 100%;
+}
+body {
+  padding: 0;
+  overflow-x: hidden;
+  font-family: "Roboto", sans serif;
+  -webkit-user-select: none; /* Safari 3.1+ */
+  -moz-user-select: none; /* Firefox 2+ */
+  -ms-user-select: none; /* IE 10+ */
+  user-select: none; /* Standard syntax */
+}
+input,
+textarea,
+.row.me div,
+#screenshotBy {
+  -webkit-user-select: text; /* Safari 3.1+ */
+  -moz-user-select: text; /* Firefox 2+ */
+  -ms-user-select: text; /* IE 10+ */
+  user-select: text; /* Standard syntax */
+}
+.underlined {
+  text-decoration: underline;
+}
+.centered {
+  text-align: center;
+}
+.button,
+.submit {
+  background: #306ca5;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 20px;
+  padding: 2px 10px;
+  border-radius: 5px;
+  margin: 5px 10px 0;
+  color: #fff;
+  opacity: 0.9;
+}
+#leftSidebar .button {
+  margin-bottom: 20px;
+}
+.button.blueBlinking {
+  animation: blueblinking 2s infinite;
+}
+@keyframes blueblinking {
+  0% {
+    background: #306ca5;
+  }
+  35% {
+    background: #123556;
+  }
+  60% {
+    background: #021526;
+  }
+  80% {
+    background: #306ca5;
+  }
+  90% {
+    background: #a53030;
+  }
+  100% {
+    background: #306ca5;
+  }
+}
+.button.demoRunning {
+  animation: redblinking 0.8s infinite;
+}
+@keyframes redblinking {
+  0% {
+    background: #d83030;
+  }
+  49% {
+    background: #6f0c0c;
+  }
+  50% {
+    background: #6f0c0c;
+  }
+  60% {
+    background: #d83030;
+  }
+  100% {
+    background: #d83030;
+  }
+}
+.pauseIcon {
+  display: none;
+}
+.demoRunning .pauseIcon {
+  display: inline-block;
+}
+.playIcon {
+  display: inline-block;
+}
+.demoRunning .playIcon {
+  display: none;
+}
+.submit {
+  float: right;
+}
+.button:hover,
+.submit:hover {
+  opacity: 1;
+}
+.button svg {
+  width: 20px;
+  height: 20px;
+  fill: #fff;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 4px;
+}
+.navigation {
+  display: none;
+}
+h1 {
+  margin: 10px 0 20px;
+  font-size: 28px;
+}
+h2 {
+  margin: 0;
+  font-size: 17px;
+  padding: 8px 5px 8px 24px;
+  line-height: 20px;
+  display: block;
+}
+.nameInput {
+  font-size: 17px;
+  margin: 8px 5px 8px 24px;
+  line-height: 20px;
+  width: 220px;
+  background: #fff;
+  border: none;
+  outline: none;
+  padding: 0 7px;
+  font-weight: bold;
+}
+.logo-container {
+  text-align: center !important;
+}
+.article h2 {
+  margin: 20px 0 10px;
+  font-size: 23px;
+  padding: 0;
+}
+.wrapArticle {
+  background: #ffffff;
+  box-shadow: 0 0 20px #ccc;
+}
+.article ul,
+.article ol {
+  margin: 0 0 10px 0;
+  padding: 0 0 0 35px;
+}
+h3 {
+  margin: 15px 0 5px;
+  font-size: 18px;
+  color: #3e74a9;
+}
+p {
+  margin: 0 0 20px;
+}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.clearfix {
+  display: inline-block;
+}
+* html .clearfix {
+  height: 1%;
+}
+.clearfix {
+  display: block;
+}
+.wrapArticle {
+  background: #ffffff;
+}
+.article {
+  padding: 20px;
+  max-width: 1200px;
+  color: #444;
+  font-size: 18px;
+  margin: auto;
+  line-height: 22px;
+}
+#logo,
+#backHome {
+  position: absolute;
+  left: 30px;
+  top: 20px;
+  opacity: 0.8;
+}
+#logo:hover,
+#backHome:hover {
+  opacity: 1;
+}
+a#backHome {
+  font-size: 25px;
+  color: #505050;
+  left: auto;
+  right: 30px;
+  top: 50px;
+  text-decoration: none;
+}
+#logo img {
+  width: 100px;
+  height: 100px;
+}
+#wrapper {
+  position: relative;
+}
+#mainWrapper {
+  text-align: center;
+}
+#wrapMessageSettings,
+#wrapScreen,
+#leftSidebar {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+}
+#wrapScreen {
+  margin: auto;
+  display: block; /*0 50px 20px*/
+}
+#leftSidebar {
+  width: 300px;
+  min-height: 10px;
+  min-height: 100px;
+  padding: 0;
+  text-align: center;
+}
+#threeColumns {
+  width: 1500px;
+  margin: 30px auto 10px;
+  max-width: 100%;
+  border-radius: 5px;
+  padding-bottom: 30px;
+}
+#options .row {
+  width: 1500px;
+  padding: 10px 0;
+  margin: auto;
+  max-width: 100%;
+}
+.row {
+  clear: both;
+  position: relative;
+}
+/* #screen .row:hover {background-color: rgba(239, 28, 28, 0.15) !important} */
+.rowCommands {
+  position: absolute;
+  display: none;
+  top: 2px;
+  left: 5px;
+  z-index: 999;
+}
+#screen .row:hover .rowCommands {
+  display: block;
+}
+/*.he .rowCommands {left: auto;right: 5px}
+*/
+.rowCommands span {
+  background: url(sprite.png) no-repeat -100px -100px #d65454;
+  font-weight: bold;
+  display: inline-block;
+  width: 18px;
+  font-size: 20px;
+  margin: 0px 2px;
+  text-indent: -999px;
+  height: 18px;
+  line-height: 18px;
+  overflow: hidden;
+  border-radius: 6px;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.rowCommands span:nth-child(1) {
+  background-position: 4px -30px;
+}
+.rowCommands span:nth-child(2) {
+  background-position: 4px 4px;
+}
+.rowCommands span:nth-child(3) {
+  background-position: 4px -13px;
+}
+.rowCommands span:hover {
+  background-color: #b93737;
+}
+.center {
+  text-align: center;
+}
+#screen {
+  margin: auto;
+  position: relative;
+  background: none top left no-repeat transparent;
+}
+#display {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#phoneFrameOverlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+#screen {
+  background: url(bigphone.png) top left no-repeat transparent;
+  width: 420px;
+  height: 841px;
+}
+#display {
+  top: 23px;
+  left: 28px;
+  right: 28px;
+  bottom: 28px;
+}
+.him,
+.myself {
+  background: #b5bfca;
+}
+.myself,
+.him,
+#prepareMessage,
+#error {
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+#hisFaceAvatar,
+#myFaceAvatar {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+#phoneTop .timeNow {
+  width: 60px;
+  text-align: center;
+}
+#phoneTop {
+  height: 20px;
+  padding: 16px 10px 0px 16px;
+  background: none no-repeat top center transparent;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 17px;
+}
+#phoneTop.topNotch {
+  background-image: url(topnotch.png);
+}
+#hisName {
+  font-weight: bold;
+  font-size: 16px;
+  height: 18px;
+  cursor: text;
+  display: block;
+}
+.iMessage {
+  font-size: 12px;
+  color: #888;
+  padding: 8px 5px 0;
+  display: none;
+}
+.headerCenter {
+  width: 200px;
+  margin: auto;
+  height: 65px;
+  position: relative;
+}
+#friendChatId {
+  color: #677;
+  font-size: 12px;
+  border: none;
+  background: transparent;
+  display: none;
+}
+.conversationHeaderiMiddle {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 65px;
+  font-size: 16px;
+  text-align: center;
+  line-height: 18px;
+}
+.conversationHeaderiMiddle img {
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  display: inline-block;
+}
+#writingArea {
+  position: absolute;
+  left: 151px;
+  right: 28px;
+  bottom: 106px;
+}
+#writingArea input {
+  color: #000;
+  font-size: 18px;
+  background: transparent;
+  border: none;
+  outline: none !important;
+  height: 30px;
+  line-height: 30px;
+  vertical-align: middle;
+  width: 180px;
+  padding: 5px 8px;
+}
+#writingArea div {
+  cursor: pointer;
+  display: inline-block;
+  height: 30px;
+  overflow: hidden;
+  vertical-align: middle;
+  text-indent: 99px;
+  border-radius: 20px;
+  background: url(arrowup.png) center center no-repeat #858e99;
+  width: 30px;
+}
+#writingArea div:hover {
+  background-color: #306ca5;
+}
+#screenshotBy {
+  position: absolute;
+  bottom: 138px;
+  left: 37px;
+  font-size: 13px;
+  color: #888;
+  font-style: italic;
+}
+#screenshotBy span {
+  display: inline-block;
+  padding: 0 4px;
+}
+#messageArea {
+  top: 140px;
+  left: 35px;
+  right: 35px;
+  bottom: 170px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  padding: 0 5px;
+  position: absolute;
+}
+#messages {
+  min-height: 10px;
+  padding-top: 20px;
+  position: absolute;
+  bottom: 22px;
+  left: 0;
+  right: 0;
+}
+.sidebarVisible #messages {
+  position: relative;
+}
+#messageArea.sidebarVisible {
+  overflow-y: scroll;
+}
+.newMessage {
+  opacity: 0;
+}
+#sideReklm {
+  width: 300px;
+  height: 10px;
+}
+#sideReklm iframe {
+  border: none;
+  width: 300px;
+  height: 200px;
+  overflow: hidden;
+}
+.adBanner {
+  background-color: transparent;
+  height: 1px;
+  width: 1px;
+}
+.message {
+  padding: 1px;
+  display: inline-block;
+  max-width: 70%;
+  line-height: 0;
+}
+.mface img {
+  width: 40px;
+  height: 5px;
+  border-radius: 50px;
+  position: relative;
+  top: 0px;
+}
+.peckes .mface img {
+  height: 40px;
+}
+.mface {
+  vertical-align: bottom;
+  visibility: hidden;
+  display: inline-block;
+  position: relative;
+  width: 40px;
+  height: 20px;
+}
+.emojiIncluded .mface,
+.noTextMessage .mface {
+  height: 45px;
+}
+.emojiIncluded .mface img,
+.noTextMessage .mface img {
+  top: -25px;
+}
+.peckes .mface {
+  visibility: visible;
+}
+.me .mface {
+  margin-left: 5px;
+}
+.he .mface {
+  margin-right: 5px;
+}
+.message div img {
+  max-width: 170px;
+  max-height: 140px;
+  border-radius: 5px 5px 0 0;
+  display: block;
+  margin: 0 auto;
+}
+.noTextMessage .message div img {
+  border-radius: 15px;
+}
+.emojimg {
+  /* big emojis */
+  max-width: 50px;
+  max-height: 50px;
+  display: inline-block;
+}
+.emoji {
+  display: inline-block;
+  vertical-align: bottom;
+  padding: 4px 5px 0 5px;
+}
+#messageArea em {
+  font-size: 12px;
+  color: #888;
+  text-align: center;
+  display: block;
+  font-style: normal;
+  line-height: 17px;
+  padding-top: 3px;
+}
+.message a {
+  text-decoration: underline;
+  display: block;
+}
+.messageText {
+  padding: 6px 12px;
+  display: block;
+  line-height: 18px;
+  font-size: 17px;
+}
+.message > div {
+  padding: 0px;
+  cursor: text;
+  display: inline-block;
+  border-radius: 20px;
+}
+.message > div:hover {
+  opacity: 0.9;
+}
+.row.me {
+  text-align: right;
+}
+.me .message > div {
+  background-color: #0980ff;
+  color: white;
+  min-width: 20px;
+}
+.message > div {
+  border-radius: 10px;
+}
+.me .message > div {
+  border-radius: 15px 4px 4px 15px;
+}
+.he .message > div {
+  border-radius: 4px 15px 15px 4px;
+}
+.me.firstByThisGuy.peckes .message > div {
+  border-radius: 15px 15px 15px 15px;
+}
+.he.firstByThisGuy.peckes .message > div {
+  border-radius: 15px 15px 15px 15px;
+}
+.me.firstByThisGuy .message > div {
+  border-radius: 15px 15px 4px 15px;
+}
+.he.firstByThisGuy .message > div {
+  border-radius: 15px 15px 15px 4px;
+}
+.me.peckes .message > div {
+  border-radius: 20px 4px 8px 20px;
+}
+.he.peckes .message > div {
+  border-radius: 4px 20px 20px 12px;
+}
+.peckes .message {
+  padding-bottom: 5px;
+}
+.me .message a {
+  color: #fff;
+}
+.he .message a {
+  color: black;
+}
+.he .message > div {
+  background-color: #e5e5ea;
+  color: black;
+}
+.row.peckes {
+  padding-bottom: 4px;
+}
+.row.peckes.noTextMessage {
+  padding-bottom: 1px;
+}
+.peckes.noTextMessage .message {
+  background: none !important;
+  padding: 1px !important;
+}
+.he.peckes .message {
+  background: url(ios-he.png) bottom left no-repeat transparent;
+}
+.me.peckes .message {
+  background: url(ios-me.png) bottom right no-repeat transparent;
+}
+input:focus {
+  outline: none;
+}
+#wrapMessageSettings {
+  font-size: 17px;
+  line-height: 17px;
+  font-weight: bold;
+  color: #555;
+  width: 480px;
+}
+button {
+  background: red;
+}
+input,
+textarea {
+  border: none;
+  padding: 3px 2%;
+  border-radius: 5px;
+  font-family: "Roboto", sans serif;
+  max-width: 100%;
+  font-size: 17px;
+  color: #555;
+  display: inline-block;
+  line-height: 17px;
+  width: 92%;
+}
+textarea {
+  max-height: 300px;
+  min-height: 50px;
+  max-width: 100%;
+  min-width: 150px;
+  outline: none;
+}
+#emojis {
+  max-width: 310px;
+  letter-spacing: 0;
+}
+#emojis > span {
+  cursor: pointer;
+  display: inline-block;
+  border-radius: 3px;
+  width: 21px;
+  position: relative;
+  height: 20px;
+  padding-bottom: 1px;
+  border-bottom: 2px solid transparent;
+  margin-bottom: 2px;
+  border-top: 2px solid transparent;
+}
+#emojis > span.select {
+  top: 2px !important;
+  background: #fff;
+  box-shadow: 0px -1px 0px 2px #fff;
+}
+#emojis > span > img {
+  width: 20px;
+  height: 20px;
+  position: relative;
+}
+.a1 #a1,
+.a2 #a2,
+.a3 #a3,
+.a4 #a4,
+.a5 #a5,
+.a6 #a6,
+.a7 #a7,
+.a8 #a8,
+.a9 #a9,
+.a10 #a10,
+.d1 #d1,
+.d2 #d2,
+.d3 #d3 {
+  border-color: #306ca5;
+  position: relative;
+  box-shadow: 1px 2px 2px #444 inset;
+  top: 2px;
+}
+.blueInput {
+  color: #0a64b7;
+  font-size: 14px;
+  font-weight: bold;
+}
+#messageImage {
+  max-width: 140px;
+  max-height: 140px;
+}
+.psName {
+  display: inline-block;
+  width: 100px;
+  vertical-align: middle;
+  text-align: right;
+  padding-right: 10px;
+}
+#prepareMessage .psName {
+  color: #848484;
+}
+.psName span {
+  display: block;
+  cursor: pointer;
+  line-height: 16px;
+  background: url(activemark.png) no-repeat bottom left transparent;
+}
+.row.active .psName span {
+  background-position: top left;
+  color: #333;
+  cursor: pointer;
+}
+.row .psName span:hover {
+  color: #222;
+}
+.psValue {
+  display: inline-block;
+  width: 325px;
+  position: relative;
+  vertical-align: middle;
+}
+#prepareMessage {
+  background: #b5bfca;
+  padding: 30px 20px;
+  position: relative;
+  z-index: 8;
+}
+.farkinca {
+  background: url(ios-he.png) bottom left no-repeat transparent;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: -12px;
+  left: 0px;
+}
+.farkincablue {
+  background: url(send-pecek.png) bottom left no-repeat transparent;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  bottom: -12px;
+  right: 0px;
+}
+#welcome .farkincablue {
+  right: 19px;
+}
+#sendAsWho {
+  width: 80%;
+  margin: 0 auto 40px;
+}
+#sendAsWho strong {
+  font-size: 1.2em;
+  line-height: 1em;
+}
+.close {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background: #6daf18;
+  height: 30px;
+  width: 30px;
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  border-radius: 20px;
+  font-size: 30px;
+}
+.close:hover,
+.kekBubi:hover .close {
+  background: #af1818;
+}
+.kekBubi {
+  position: relative;
+  background: #306ca5;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 18px;
+  line-height: 21px;
+  cursor: pointer;
+  font-weight: normal;
+  color: #fff;
+}
+#welcome {
+  max-width: 250px;
+  position: relative;
+  margin: 0px 0 10px;
+}
+#sendAsWho > div {
+  width: 34%;
+  z-index: 7;
+  margin: 5px 5%;
+  position: relative;
+  background: #e5e5ea;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 23px;
+  line-height: 25px;
+  opacity: 0.8;
+  cursor: pointer;
+  font-weight: normal;
+  color: #222;
+}
+#sendAsWho > div:hover {
+  opacity: 1;
+}
+#sendAsWho > div#sendAsMe {
+  color: white;
+  background: #306ca5;
+}
+a#emojiLink {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  text-align: center;
+  width: 30px;
+  color: #444;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  background: #b5bfca;
+  border-radius: 0 8px 0 0;
+}
+#wrapMessageSettings a:hover {
+  color: #306ca5;
+}
+#wrapMessageSettings .row {
+  padding: 0 0 12px;
+}
+#myNameFileInput,
+#hisNameFileInput,
+#messageImageFileInput {
+  border: none;
+  width: 245px;
+}
+#error {
+  padding: 10px 20px;
+  background: #ffdddd;
+  display: none;
+}
+#errorMessage {
+  color: red;
+  display: inline-block;
+  line-height: 30px;
+}
+/* custom scrollbar */
+#wrapScreen ::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+#wrapScreen ::-webkit-scrollbar-track {
+  background: url(scrollbar-back.png) repeat-y center center transparent;
+  border-radius: 3px;
+}
+/* Handle */
+#wrapScreen ::-webkit-scrollbar-thumb {
+  background: #86b3dc;
+  border-radius: 10px;
+}
+/* Handle on hover */
+#wrapScreen ::-webkit-scrollbar-thumb:hover {
+  background: #306ca5;
+}
+#myNameHeaderInput {
+  background: transparent;
+  color: #333;
+}
+#options {
+  display: block;
+  background: #b5bfca;
+  padding: 20px 10px;
+  min-height: 100px;
+}
+#options h3 {
+  display: inline-block;
+  margin: 10px;
+}
+#options > div {
+  padding: 5px 0;
+}
+#options ul {
+  display: inline-block;
+}
+#options ul li {
+  cursor: pointer;
+  display: inline-block;
+  padding: 5px 8px 5px 33px;
+  border-radius: 50px;
+  background: rgba(255, 255, 255, 0.5);
+  font-weight: bold;
+  color: #555;
+  margin: 3px 7px;
+  font-size: 15px;
+  position: relative;
+  background: url(sprite.png) no-repeat right top rgb(229, 235, 239);
+}
+#options ul li#a6 {
+  background-position: 9px -95px;
+}
+#options ul li#a7 {
+  background-position: 9px -145px;
+}
+#options ul li#a1 {
+  background-position: 9px -195px;
+}
+#options ul li#a5 {
+  background-position: 9px -245px;
+}
+#options ul li#a2 {
+  background-position: 9px -295px;
+}
+#options ul li#a3 {
+  background-position: 9px -345px;
+}
+#options ul li#a4 {
+  background-position: 9px -395px;
+}
+#options ul li#a8 {
+  background-position: 9px -445px;
+}
+#options #screenOptions ul li#d1 {
+  background-position: 9px -495px;
+}
+#options #screenOptions ul li#d2 {
+  background-position: 9px -545px;
+}
+#options #screenOptions ul li#d3 {
+  background-position: 9px -595px;
+}
+#options ul li:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.nameInMessage {
+  display: none;
+}
+.d3 .message,
+.d2 .message {
+  max-width: 60%;
+}
+.d2 #screen,
+.d3 #screen {
+  background: #fff !important;
+  width: 320px;
+  height: 841px;
+  box-shadow: 3px 3px 10px #999;
+}
+.d2 #display,
+.d3 #display {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.d2 #phoneTop,
+.d2 #writingArea,
+.d2 .conversationHeaderiMiddle,
+.d3 #phoneTop,
+.d3 #writingArea,
+.d3 .conversationHeaderiMiddle {
+  display: none;
+}
+.d2 #messageArea,
+.d3 #messageArea {
+  top: 10px !important;
+  left: 10px !important;
+  right: 10px !important;
+  bottom: 20px !important;
+}
+#wrapper .d2 #screenshotBy,
+#wrapper .d3 #screenshotBy {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  right: auto;
+  top: auto;
+  color: #aaa;
+}
+.d3 #leftSidebar {
+  display: none;
+}
+.d3 #screen {
+  width: 500px;
+}
+/* Facebook */
+.a1 .me .message > div {
+  background-color: #0084ff;
+}
+.a1 #screen {
+  background-image: url(bigphone-facebook.png);
+}
+.a1 .me .mface,
+.a1 .myself {
+  margin-left: 5px;
+  display: none;
+}
+.a1 .iMessage {
+  display: block;
+}
+.a1 #messageArea {
+  top: 140px;
+  bottom: 110px;
+}
+.a1 .conversationHeaderiMiddle img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.a1 .headerCenter {
+  text-align: left;
+}
+.a1 #hisName {
+  display: inline-block;
+}
+.a1 .headerCenter {
+  height: 45px;
+}
+.a1 .conversationHeaderiMiddle {
+  top: 70px;
+}
+.a1 #screenshotBy {
+  bottom: 90px;
+}
+.a1 #writingArea {
+  bottom: 44px;
+  left: 28px;
+}
+.a1 #writingArea div {
+  float: left;
+  width: 40px;
+  height: 40px;
+  opacity: 0;
+}
+.a1 #writingArea input {
+  width: 200px;
+}
+.a1 .peckes .message {
+  background: none;
+}
+.a1 .firstByThisGuy.peckes .message > div {
+  border-radius: 15px;
+}
+.a1 .he.peckes .message > div {
+  border-radius: 4px 20px 20px 20px;
+}
+.a1 .me.peckes .message > div {
+  border-radius: 20px 4px 20px 20px;
+}
+.a1 .me.firstByThisGuy.peckes .message > div {
+  border-radius: 15px 15px 8px 15px;
+}
+.a1 .he.firstByThisGuy.peckes .message > div {
+  border-radius: 15px 15px 15px 8px;
+}
+/* Twitter */
+.a2 #screen {
+  background-image: url(bigphone-twitter.png);
+}
+.a2 #writingArea {
+  left: 40px;
+  right: 32px;
+  bottom: 58px;
+}
+.a2 #writingArea input {
+  width: 140px;
+  margin-right: 115px;
+}
+.a2 #writingArea div {
+  font-weight: bold;
+  text-indent: 0;
+  background: #c6cfe1;
+  width: auto;
+  color: #fff;
+  line-height: 28px;
+  padding: 0px 10px;
+  height: 28px;
+}
+.a2 .peckes .message {
+  background-image: none;
+}
+.a2 .peckes .mface img {
+  margin-top: -25px;
+}
+.a2 .me.peckes .message > div {
+  border-radius: 20px 4px 2px 20px;
+}
+.a2 .he.peckes .message > div {
+  border-radius: 4px 20px 20px 2px;
+}
+.a2 .me.firstByThisGuy.peckes .message > div {
+  border-radius: 15px 15px 2px 15px;
+  margin-top: 10px;
+}
+.a2 .he.firstByThisGuy.peckes .message > div {
+  border-radius: 15px 15px 15px 2px;
+  margin-top: 10px;
+}
+.a2 .row.peckes {
+  padding-bottom: 8px;
+}
+.a2 .me .message > div {
+  background-color: #1da1f2;
+}
+.a2 .he .message > div {
+  background-color: #e6ecf0;
+}
+.a2 .conversationHeaderiMiddle img {
+  position: absolute;
+  top: 10px;
+  left: 20px;
+}
+.a2 #hisName {
+  position: absolute;
+  top: 14px;
+  left: 70px;
+  text-align: left;
+  font-size: 1.1em;
+}
+.a2 #friendChatId {
+  position: absolute;
+  top: 30px;
+  left: 66px;
+  display: block;
+  cursor: text;
+}
+.a2 .emojiIncluded .mface,
+.noTextMessage .mface {
+  height: 20px;
+}
+.a2 .emojiIncluded .mface img,
+.a2 .noTextMessage .mface img {
+  top: 0;
+}
+.a2 #screenshotBy {
+  bottom: 120px;
+}
+.a2 #messageArea {
+  bottom: 145px;
+}
+/* Twitter */
+#tinderTop {
+  font-size: 11px;
+  color: #777;
+  max-width: 320px;
+  text-transform: uppercase;
+  padding: 13px 5px 0;
+  display: none;
+  background: transparent;
+  text-transform: uppercase;
+  text-align: center;
+  margin: auto;
+}
+.a3 #screen {
+  background-image: url(bigphone-tinder.png);
+}
+.a3 .me .mface,
+.a3 .myself {
+  margin-left: 5px;
+  display: none;
+}
+.a3 #tinderTop {
+  display: block;
+}
+.a3 #messageArea {
+  top: 165px;
+  bottom: 135px;
+}
+.a3 .peckes .message {
+  background-image: none;
+}
+.a3 .peckes .mface img {
+  margin-top: -25px;
+}
+.a3 .me.peckes .message > div {
+  border-radius: 20px 4px 2px 20px;
+}
+.a3 .he.peckes .message > div {
+  border-radius: 4px 20px 20px 2px;
+}
+.a3 .me.firstByThisGuy.peckes .message > div {
+  border-radius: 15px 15px 2px 15px;
+  margin-top: 10px;
+}
+.a3 .he.firstByThisGuy.peckes .message > div {
+  border-radius: 15px 15px 15px 2px;
+  margin-top: 10px;
+}
+.a3 .row.peckes {
+  padding-bottom: 8px;
+}
+.a3 .me .message > div {
+  background-color: #2fb1c7;
+}
+.a3 .he .message > div {
+  background-color: #e7e7e7;
+}
+.a3 #writingArea {
+  left: 114px;
+  right: 35px;
+  bottom: 61px;
+}
+/* Handle */
+.a3 #wrapScreen ::-webkit-scrollbar-thumb {
+  background: #73bbc6;
+}
+/* Handle on hover */
+.a3 #wrapScreen ::-webkit-scrollbar-thumb:hover {
+  background: #2fb1c7;
+}
+.a3 #writingArea div {
+  font-weight: bold;
+  text-indent: 0;
+  background: #c6cfe1;
+  width: auto;
+  color: #fff;
+  line-height: 28px;
+  padding: 0px 10px;
+  height: 28px;
+}
+.a3 #writingArea div {
+  font-weight: normal;
+  text-indent: 0;
+  background: transparent;
+  width: auto;
+  color: #999;
+  line-height: 28px;
+  padding: 0px 10px;
+  height: 28px;
+  font-size: 20px;
+}
+.a3 #writingArea div:hover {
+  color: #555;
+}
+.a3 #screenshotBy {
+  bottom: 105px;
+}
+/* Whatsapp */
+.a4 #screen {
+  background-image: url(bigphone-whatsapp.png);
+}
+.a4 #phoneTop.topNotch {
+  background-image: url(topnotch-negative.png);
+}
+.a4 #phoneTop .timeNow {
+  color: #fff;
+}
+.a4 .headerCenter {
+  width: 300px;
+  height: 50px;
+  color: #fff;
+}
+.a4 #hisName {
+  display: inline-block;
+}
+.a4 .conversationHeaderiMiddle img {
+  vertical-align: middle;
+}
+.a4 .conversationHeaderiMiddle {
+  top: 61px;
+}
+.a4 #screenshotBy {
+  bottom: 100px;
+  color: #444;
+}
+.a4 #writingArea {
+  left: 70px;
+  right: 28px;
+  bottom: 36px;
+}
+.a4 #writingArea input {
+  padding: 12px;
+}
+.a4 #writingArea div {
+  margin-left: 50px;
+  width: 58px;
+  height: 58px;
+  background-color: #075e55;
+  opacity: 0;
+}
+/* Handle */
+.a4 #wrapScreen ::-webkit-scrollbar-thumb {
+  background: #54918a;
+}
+/* Handle on hover */
+.a4 #wrapScreen ::-webkit-scrollbar-thumb:hover {
+  background: #075e55;
+}
+.a4 #messageArea {
+  top: 120px;
+  bottom: 125px;
+}
+.a4 .mface {
+  display: none;
+}
+.a4 .me .message > div {
+  background-color: #dfffc6;
+  color: black;
+  box-shadow: -2px 2px 2px #777;
+}
+.a4 .he .message > div {
+  background-color: #ffffff;
+  box-shadow: 2px 2px 2px #777;
+}
+.a4 .peckes .message {
+  background: none !important;
+}
+.a4 .peckes .message {
+  background-image: none;
+}
+.a4 .peckes .mface img {
+  margin-top: -25px;
+}
+.a4 .me.peckes .message > div {
+  border-radius: 20px 4px 20px 20px;
+}
+.a4 .he.peckes .message > div {
+  border-radius: 4px 20px 20px 20px;
+}
+.a4 .me.firstByThisGuy.peckes .message > div {
+  border-radius: 15px 1px 15px 15px;
+  margin-top: 0px;
+}
+.a4 .me.firstByThisGuy .message > div {
+  border-radius: 15px 0px 4px 15px !important;
+}
+.a4 .he.firstByThisGuy .message > div {
+  border-radius: 0px 15px 15px 4px !important;
+}
+.a4 .he.firstByThisGuy.peckes .message > div {
+  border-radius: 1px 15px 15px 15px;
+  margin-top: 0px;
+}
+.a4 .peckes.noTextMessage .message {
+  background: none !important;
+}
+.a4 .row.peckes {
+  padding-bottom: 8px;
+}
+.a4 .message,
+.a4 .peckes.noTextMessage .message {
+  padding: 1px 15px !important;
+}
+.a4 .emojimg {
+  margin: 0 15px;
+}
+.a4 .myself {
+  display: none;
+}
+.a4 .he.firstByThisGuy .message {
+  background: url(whatsapp-he.png) no-repeat top left transparent !important;
+}
+.a4 .me.firstByThisGuy .message {
+  background: url(whatsapp-me.png) no-repeat top right transparent !important;
+}
+/* Skype black */
+.a5 #screen {
+  background-image: url(bigphone-skype.png);
+}
+.a5 #phoneTop.topNotch {
+  background-image: url(topnotch-negative.png);
+  color: #fff;
+}
+.a5 .me .message > div {
+  background: #333;
+}
+.a5 .he .message > div {
+  background: #1a87da;
+  background: -moz-linear-gradient(-45deg, #1a87da 0%, #8baed9 100%);
+  background: -webkit-linear-gradient(-45deg, #1a87da 0%, #8baed9 100%);
+  background: linear-gradient(135deg, #1a87da 0%, #8baed9 100%);
+  color: #fff;
+}
+.a5 #hisName {
+  color: #fff;
+}
+.a5 .peckes .message {
+  background: none !important;
+}
+.a5 .peckes .message {
+  background-image: none;
+}
+.a5 .me.peckes .message > div {
+  border-radius: 20px 4px 20px 20px;
+}
+.a5 .he.peckes .message > div {
+  border-radius: 4px 20px 20px 20px;
+}
+.a5 .me.firstByThisGuy.peckes .message > div {
+  border-radius: 15px 1px 15px 15px;
+  margin-top: 0px;
+}
+.a5 .me.firstByThisGuy .message > div {
+  border-radius: 15px 0px 4px 15px !important;
+}
+.a5 .he.firstByThisGuy .message > div {
+  border-radius: 0px 15px 15px 4px !important;
+}
+.a5 .he.firstByThisGuy.peckes .message > div {
+  border-radius: 1px 15px 15px 15px;
+  margin-top: 0px;
+}
+.a5 .peckes.noTextMessage .message {
+  background: none !important;
+}
+.a5 .row.peckes {
+  padding-bottom: 1px;
+}
+.a5 .peckes .mface {
+  visibility: hidden;
+}
+.a5 .firstByThisGuy .mface {
+  visibility: visible !important;
+}
+.a5 .firstByThisGuy .mface img {
+  height: 40px;
+}
+.a5 .mface {
+  position: absolute;
+  top: -18px;
+}
+.a5 .message,
+.a5 .he .emoji {
+  padding-left: 50px;
+}
+.a5 .noTextMessage .message {
+  margin-left: 50px;
+}
+.a5 .emojiIncluded .mface img,
+.noTextMessage .mface img {
+  top: 0;
+}
+.a5 #writingArea {
+  left: 40px;
+  right: 28px;
+  bottom: 46px;
+}
+.a5 #writingArea div {
+  float: left;
+  width: 40px;
+  height: 40px;
+  opacity: 0;
+}
+.a5 #writingArea div:hover {
+  opacity: 1;
+}
+.a5 #writingArea input {
+  padding: 5px 13px;
+  color: #fff;
+}
+.a5 #screenshotBy {
+  bottom: 100px;
+}
+.a5 #messageArea {
+  top: 130px;
+  bottom: 120px;
+}
+.a5 .myself {
+  display: none;
+}
+/* iPhone SMS */
+.a6 #screen {
+  background-image: url(bigphone-iphone.png);
+}
+.a6 .conversationHeaderiMiddle img,
+.a6 .mface,
+.a6 .him,
+.a6 .myself {
+  display: none;
+}
+.a6 .headerCenter {
+  height: 25px;
+}
+.a6 #screenshotBy {
+  bottom: 120px;
+}
+.a6 #writingArea {
+  bottom: 78px;
+}
+.a6 #writingArea div {
+  background-color: #0980ff;
+}
+.a6 #messageArea {
+  top: 100px;
+  bottom: 140px;
+  left: 40px;
+  right: 40px;
+}
+/* Handle */
+.a6 #wrapScreen ::-webkit-scrollbar-thumb {
+  background: #84848499;
+}
+/* Handle on hover */
+.a6 #wrapScreen ::-webkit-scrollbar-thumb:hover {
+  background: #848484;
+}
+.a6 #wrapScreen ::-webkit-scrollbar-track {
+  background: none;
+}
+/* Android */
+.a7 #screen {
+  background-image: url(bigphone-android.png);
+}
+.a7 .conversationHeaderiMiddle img {
+  display: none;
+}
+.a7 .headerCenter {
+  height: 25px;
+  width: 240px;
+  text-align: left;
+  color: #777;
+}
+.a7 #screenshotBy {
+  bottom: 135px;
+}
+.a7 #writingArea {
+  bottom: 45px;
+  left: 36px;
+}
+.a7 #writingArea div {
+  background-color: #0980ff;
+}
+.a7 #messageArea {
+  top: 115px;
+  bottom: 155px;
+  left: 30px;
+  right: 30px;
+}
+.a7 .sidebarVisible #messages {
+  padding-right: 3px;
+}
+.a7 #messageArea.sidebarVisible {
+  right: 19px;
+}
+.a7 #writingArea input {
+  width: 256px;
+}
+.a7 #writingArea div {
+  text-indent: 0;
+  background: #a2a2a2;
+  width: auto;
+  color: #ffffff;
+  line-height: 30px;
+  padding: 0px 10px;
+  font-size: 19px;
+  height: 30px;
+}
+.a7 #writingArea div:hover {
+  background: #7d7d7d;
+}
+.a7 #phoneTop.topNotch {
+  background: none;
+  font-size: 14px;
+  padding: 16px 10px 0px 16px;
+  line-height: 14px;
+  color: #777;
+}
+/* Handle */
+.a7 #wrapScreen ::-webkit-scrollbar-thumb {
+  background: #84848499;
+}
+/* Handle on hover */
+.a7 #wrapScreen ::-webkit-scrollbar-thumb:hover {
+  background: #848484;
+}
+.a7 #wrapScreen ::-webkit-scrollbar-track {
+  background: none;
+}
+.a7 .peckes .message {
+  background: none;
+}
+.a7 .firstByThisGuy.peckes .message > div {
+  border-radius: 15px;
+}
+.a7 .he.peckes .message > div {
+  border-radius: 4px 20px 20px 20px;
+}
+.a7 .me.peckes .message > div {
+  border-radius: 20px 4px 20px 20px;
+}
+.a7 .me.firstByThisGuy.peckes .message > div {
+  border-radius: 15px 15px 8px 15px;
+}
+.a7 .he.firstByThisGuy.peckes .message > div {
+  border-radius: 15px 15px 15px 8px;
+}
+.a7 .me .mface,
+.a7 .myself {
+  display: none;
+}
+.a7 .noTextMessage .mface img,
+.a7 .mface img {
+  top: -25px;
+}
+.a7 .me .message > div {
+  background-color: #7094ce;
+}
+.a7 .conversationHeaderiMiddle {
+  top: 75px;
+}
+/* Linkedin */
+.a8 #screen {
+  background-image: url(bigphone-linkedin.png);
+}
+.a8 .conversationHeaderiMiddle img {
+  display: none;
+}
+.a8 .headerCenter {
+  height: 25px;
+}
+.a8 #screenshotBy {
+  bottom: 120px;
+}
+.a8 #writingArea {
+  bottom: 34px;
+  height: 88px;
+  left: 40px;
+  right: 62px;
+}
+.a8 #writingArea div {
+  background: #9ec8df;
+  text-indent: 0;
+  width: auto;
+  color: #ffffff;
+  line-height: 26px;
+  padding: 0px 10px;
+  font-size: 15px;
+  height: 26px;
+  border-radius: 5px;
+  font-weight: bold;
+  float: right;
+}
+.a8 #writingArea div:hover {
+  background: #80a4b7;
+}
+.a8 #writingArea input {
+  color: #000;
+  font-size: 18px;
+  background: transparent;
+  border: none;
+  outline: none !important;
+  height: 30px;
+  line-height: 30px;
+  width: auto;
+  padding: 5px 8px;
+  display: block;
+  margin-bottom: 14px;
+}
+.a8 #messageArea {
+  top: 105px;
+  bottom: 140px;
+}
+.a8 .me .message > div,
+.a8 .he .message > div {
+  background: transparent;
+  color: #333;
+}
+.a8 .he.peckes .message,
+.a8 .me.peckes .message {
+  background: none;
+}
+.a8 #phoneTop.topNotch {
+  background-image: url(topnotch-negative.png);
+  color: #fff;
+}
+.a8 #hisName {
+  color: #fff;
+}
+.a8 .headerCenter {
+  width: 260px;
+  text-align: left;
+}
+.a8 .firstByThisGuy .mface {
+  visibility: visible !important;
+  display: inline-block;
+  height: 40px;
+  position: absolute;
+  top: 10;
+  left: 0;
+}
+.a8 .firstByThisGuy .mface img {
+  height: 40px;
+  border-radius: 10px;
+}
+.a8 .peckes .mface {
+  visibility: hidden;
+}
+.a8 .mface {
+  float: left;
+  margin: 0 10px 5px 0;
+  display: none;
+}
+.a8 .row.me {
+  text-align: left;
+}
+.a8 .messageText {
+  padding: 0;
+  line-height: 17px;
+  font-size: 15px;
+}
+.a8 #messages > .row {
+  clear: none;
+  position: relative;
+  margin-top: -5px;
+}
+.a8 #messages > .row.firstByThisGuy {
+  clear: none;
+  border-top: 1px solid #bbb;
+  padding-top: 10px;
+}
+.a8 .message,
+.a8 .emoji {
+  margin-left: 50px;
+  max-width: 98%;
+}
+.a8 .row.peckes {
+  padding-bottom: 15px;
+}
+.a8 #messageArea em {
+  padding: 40px 5px 20px;
+}
+.a8 .firstByThisGuy.peckes {
+  min-height: 40px;
+}
+.a8 .firstByThisGuy .nameInMessage {
+  display: block;
+  height: 7px;
+  margin: 5px 0 3px 0;
+}
+.a8 .emojimg {
+  margin: 5px 0 0;
+}
+.a8 .noTextMessage .message div img {
+  border-radius: 5px;
+  margin-bottom: 8px;
+}
+.a8 #myNameHeaderInput {
+  background: #fff;
+  color: inherit;
+}
+/*Narrow and wide*/
+.a5 .d2 #screen,
+.a5 .d3 #screen {
+  background: #000 !important;
+}
+.a4 .d2 #screen,
+.a4 .d3 #screen {
+  background: url(whatsback.jpg) repeat center center #f8f1eb !important;
+}
+/* APP boilerplate */
+.a9 #screen {
+  background-image: url(bigphone-iphone.png);
+}
+.a9 .conversationHeaderiMiddle img {
+  display: none;
+}
+.a9 .headerCenter {
+  height: 25px;
+}
+.a9 #screenshotBy {
+  bottom: 120px;
+}
+.a9 #writingArea {
+  bottom: 78px;
+}
+.a9 #writingArea div {
+  background-color: #0980ff;
+}
+.a9 #messageArea {
+  top: 100px;
+  bottom: 140px;
+}
+@media screen and (max-width: 1400px) {
+  #wrapScreen {
+    margin: 0 15px 20px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  #wrapMessageSettings {
+    width: 300px;
+  }
+  .psValue {
+    display: block;
+    width: auto;
+  }
+  .psName {
+    display: block;
+    width: auto;
+    text-align: left;
+    margin-bottom: 5px;
+  }
+  #welcome .farkincablue {
+    right: 39px;
+  }
+  #sendAsWho {
+    width: 100%;
+  }
+  #sendAsWho > div {
+    width: 41%;
+    margin: 5px 2%;
+    padding: 3px 5px;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  .psName span {
+    padding-left: 35px;
+  }
+  #prepareMessage {
+    padding: 10px 5px 2px 10px;
+  }
+  #prepareMessage .row {
+    padding: 0 0 25px;
+  }
+  .nameInput {
+    font-size: 15px;
+    width: 80%;
+    margin: 2px auto 10px;
+    display: block;
+  }
+  .him,
+  .myself {
+    padding: 10px;
+  }
+  .profileSettings .psName {
+    display: inline-block;
+    width: 70px;
+  }
+  .profileSettings .psValue {
+    display: inline-block;
+    width: 180px;
+  }
+  #emojis {
+    margin: auto;
+  }
+  #emojis > span {
+    margin: 2px 5px;
+  }
+}
+@media screen and (max-width: 1250px) {
+  a#backHome {
+    display: none;
+  }
+  #logo {
+    position: relative;
+    left: 0;
+    top: 0;
+    float: left;
+    margin: 2px 10px 2px 2px;
+  }
+  #options ul li {
+    margin: 3px 2px;
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 1100px) {
+  #sideReklm {
+    display: none;
+  }
+  #leftSidebar {
+    display: block;
+    margin: auto;
+  }
+}
+@media screen and (max-width: 1000px) {
+  #logo,
+  #backHome {
+    float: none;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .d2 #screen,
+  .d3 #screen {
+    width: 280px;
+    height: 600px;
+  }
+  .d3 #screen {
+    width: 400px;
+  }
+}
