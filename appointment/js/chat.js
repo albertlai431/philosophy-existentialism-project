@@ -5,21 +5,26 @@ var Chat = function () {
   var chatHeight = chatRoom.offsetHeight;
   var padding = 5;
 
-  function getTimeStamp() {
-    var d = new Date();
-    var h = d.getHours();
-    var m = "0" + d.getMinutes();
-    var ampm = h >= 12 ? "PM" : "AM";
-    h -= h > 12 ? 12 : 0;
-    h = h === 0 ? 12 : h;
-
-    return h + ":" + m.substring(m.length - 2) + " " + ampm;
-  }
-
   _this.displayMsg = function (msg) {
-    var messageText = document.createElement("div");
-    messageText.className = "messageText";
-    messageText.innerHTML = msg.text;
+    //check image
+    var messageText;
+    if (msg.text === undefined) {
+      //img
+      if (msg.emojiUrl === undefined) {
+        messageText = document.createElement("img");
+        messageText.src = msg.imageUrl;
+      }
+      //emoji
+      else {
+        messageText = document.createElement("img");
+        messageText.src = msg.emojiUrl;
+        messageText.className = "emojimg";
+      }
+    } else {
+      messageText = document.createElement("div");
+      messageText.className = "messageText";
+      messageText.innerHTML = msg.text;
+    }
 
     var strong = document.createElement("strong");
     strong.className = "nameInMessage";
@@ -30,15 +35,41 @@ var Chat = function () {
     div1.appendChild(messageText);
 
     var message = document.createElement("div");
-    message.className = "message";
+    message.className = msg.emojiUrl === undefined ? "message" : "emoji";
     message.style.opacity = "1";
     message.appendChild(div1);
 
     var li = document.createElement("div");
-    li.className =
-      msg.name === owner
-        ? "row me firstByThisGuy peckes"
-        : "row he firstByThisGuy peckes";
+    //me
+    if (msg.name === owner) {
+      if (msg.text === undefined) {
+        //img
+        if (msg.emojiUrl === undefined) {
+          li.className = "row me peckes noTextMessage";
+        }
+        //emoji
+        else {
+          li.className = "row me emojiIncluded noTextMessage peckes";
+        }
+      } else {
+        li.className = "row me firstByThisGuy peckes";
+      }
+    }
+    //he
+    else {
+      if (msg.text === undefined) {
+        //img
+        if (msg.emojiUrl === undefined) {
+          li.className = "row he peckes noTextMessage";
+        }
+        //emoji
+        else {
+          li.className = "row he emojiIncluded noTextMessage peckes";
+        }
+      } else {
+        li.className = "row he firstByThisGuy peckes";
+      }
+    }
     li.appendChild(message);
 
     chatRoom.appendChild(li);
