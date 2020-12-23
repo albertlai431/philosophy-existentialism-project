@@ -308,7 +308,9 @@ var MessagingSim = function (chat) {
         } else {
           currentTime += messages[index - 1].text.length * 30;
         }
-      } else currentTime += 500;
+      } else currentTime += 1000;
+
+      currentTime += 250;
 
       setTimeout(
         function (msg) {
