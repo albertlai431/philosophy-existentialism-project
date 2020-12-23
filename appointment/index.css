@@ -474,7 +474,7 @@ a#backHome {
   bottom: 0;
 }
 #screen {
-  background: url(bigphone.png) top left no-repeat transparent;
+  background: url(./img/bigphone.png) top left no-repeat transparent;
   width: 420px;
   height: 841px;
 }
@@ -516,7 +516,7 @@ a#backHome {
   line-height: 17px;
 }
 #phoneTop.topNotch {
-  background-image: url(topnotch.png);
+  background-image: url(./img/topnotch.png);
 }
 #hisName {
   font-weight: bold;
@@ -797,7 +797,7 @@ a#backHome {
   background: url(ios-he.png) bottom left no-repeat transparent;
 }
 .me.peckes .message {
-  background: url(ios-me.png) bottom right no-repeat transparent;
+  background: url(./img/ios-me.png) bottom right no-repeat transparent;
 }
 input:focus {
   outline: none;
