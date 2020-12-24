@@ -7,6 +7,8 @@ function checkAnswer() {
     location = "accounts/felicity.html";
   else if (username == "075468925" && password == "gg562few")
     location = "accounts/chris.html";
+  else if (username == "369420666" && password == "ff666lol")
+    location = "accounts/amanda.html";
   else alert("Incorrect username or password! Please try again.");
   return false;
 }
