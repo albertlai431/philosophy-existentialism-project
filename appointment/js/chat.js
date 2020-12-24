@@ -45,7 +45,7 @@ var Chat = function () {
       if (msg.text === undefined) {
         //img
         if (msg.emojiUrl === undefined) {
-          li.className = "row me peckes noTextMessage";
+          li.className = "row me peckes firstByThisGuy noTextMessage";
         }
         //emoji
         else {
@@ -60,7 +60,7 @@ var Chat = function () {
       if (msg.text === undefined) {
         //img
         if (msg.emojiUrl === undefined) {
-          li.className = "row he peckes noTextMessage";
+          li.className = "row he peckes firstByThisGuy noTextMessage";
         }
         //emoji
         else {
