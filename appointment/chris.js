@@ -146,14 +146,32 @@ var MessagingSim = function (chat) {
       text: "Wow, uh that seems a bit tough, I don't really do much...",
     },
     {
-      name: "",
+      name: "Zoey",
       text:
-        "Then do things you would be proud to include as part of your identity.",
+        "I don't really have any, like intrinsic cool qualities or anything like that.",
+    },
+    {
+      name: "Zoey",
+      imageUrl: "./img/i-suck.gif",
+    },
+    {
+      name: "",
+      text: "Chris, existence precedes essence!",
     },
     {
       name: "",
       text:
-        "And that starts with being more confident, recondering your career path, and rewriting that English essay!",
+        "You were not born with an inherent identity, nor are you are not defined by your circumstances.",
+    },
+    {
+      name: "",
+      text:
+        "You have the freedom to choose who you are everyday, and do the things you would be proud to include as part of your identity.",
+    },
+    {
+      name: "",
+      text:
+        "For example, you could choose to be more confident, reconsider your career path, and rewrite that English essay!",
     },
     {
       name: "Zoey",

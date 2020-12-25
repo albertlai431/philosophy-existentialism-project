@@ -203,6 +203,11 @@ var MessagingSim = function (chat) {
     },
     {
       name: "",
+      text:
+        'You live as a "they-self" rather than a unique individual, and by doing so, disown your own reality in favour for the feeling of being at home in the world.',
+    },
+    {
+      name: "",
       imageUrl: "./img/girls.jpg",
     },
     {
@@ -212,7 +217,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        "In times of anxiety, you are torn apart from the world. You're forced to confront yourself and determine what really matters to you!",
+        'In times of anxiety, you are torn apart from the world. You\'re taken out of the "they", forced to confront yourself and determine what really matters to you!',
     },
     {
       name: "Zoey",
@@ -226,7 +231,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        "You must ultimately make this choice yourself, in utter disregard of the comfort being at home in the world provides, because this is your chance to rule your world!",
+        "You must ultimately courageously make this choice yourself because this is your chance to rule your world and design your path!",
     },
     {
       name: "Zoey",
@@ -243,11 +248,16 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        "Indeed! I will not give you any advice on what to choose, except that you must choose yourself.",
+        'Indeed! I will not give you any advice on what to choose, except that you must choose yourself and must NOT passively sink back into the "they-self".',
+    },
+    {
+      name: "",
+      imageUrl: "./img/i-want-you.jpg",
     },
     {
       name: "Zoey",
-      text: "Not even, like, consider the location and cost of the program?",
+      text:
+        "Not even, like, consider the location and cost of the program? Or I should study something I love?",
     },
     {
       name: "",
