@@ -79,8 +79,8 @@
                                     <h2>
                                         <font color="red"></font>
                                     </h2>
-                                    <form onSubmit="return checkAnswer();" name="loginForm" id="loginForm"
-                                        target="_top">
+                                    <form onSubmit="return checkAnswer();" name="loginForm" id="loginForm" target="_top"
+                                        readonly onfocus="this.removeAttribute('readonly');">
                                         <input type="hidden" name="subject_id" value="0">
 
                                         <table border="0" cellspacing="1" cellpadding="1">
@@ -91,7 +91,7 @@
                                             </tr>
                                             <tr>
                                                 <td>Password</td>
-                                                <td><input id="password" type="password" name="password" size="10"
+                                                <td><input id="password" type="text" name="password" size="10"
                                                         border="0"></td>
                                             </tr>
                                         </table>
