@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.css">
+    <title>Mission Control</title>
+    <link rel="shortcut icon" href="./images/report.png" type="image/x-icon">
+</head>
+
+<body>
+    <h1>Mission Control</h1>
+
+    <p>Congratulations on completing your mission! Please find your mission report below.</p>
+
+    <h2>Mission Report</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Guidance Counsellor</th>
+                <th>Rating</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Suicidal Sally</td>
+                <td>M. Camus</td>
+                <td id="sallyStars"></td>
+            </tr>
+            <tr>
+                <td>Feminist Felicity</td>
+                <td>Mme. Beauvoir</td>
+                <td id="felicityStars"></td>
+            </tr>
+            <tr>
+                <td>Confused Chris</td>
+                <td>M. Sartre</td>
+                <td id="chrisStars"></td>
+            </tr>
+            <tr>
+                <td>Anxious Amanda</td>
+                <td>Mr. Heidegger</td>
+                <td id="amandaStars"></td>
+            </tr>
+            <tr>
+                <td>Bored Bobby</td>
+                <td>Mr. Heidegger</td>
+                <td id="bobbyStars"></td>
+            </tr>
+            <tr>
+                <td>Lustful Logan</td>
+                <td>M. Sartre</td>
+                <td id="loganStars"></td>
+            </tr>
+            <tr>
+                <td>Indecisive Ian</td>
+                <td>M. Sartre</td>
+                <td id="ianStars"></td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Mission Outcome</h2>
+    <p>This brings us to the end of the mission. The outcome... is what you make of it. So what do you think? Are these
+        new philosopher "guidance counsellors" effective?</p>
+
+    <script>
+        var ids = ["sallyStars", "felicityStars", "chrisStars", "amandaStars", "bobbyStars", "loganStars", "ianStars"];
+        ids.forEach(function (element) {
+            var numStars = parseInt(localStorage.getItem(element));
+            var tableItem = document.getElementById(element);
+            tableItem.innerHTML = "⭐".repeat(numStars);
+        });
+    </script>
+</body>
+
+</html>
