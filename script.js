@@ -13,6 +13,8 @@ function checkAnswer() {
     location = "accounts/bobby.html";
   else if (username == "334369486" && password == "uh648auf")
     location = "accounts/logan.html";
+  else if (username == "071651565" && password == "yt454efd")
+    location = "accounts/ian.html";
   else alert("Incorrect username or password! Please try again.");
   return false;
 }
