@@ -201,11 +201,11 @@ var MessagingSim = function (chat) {
         if (messages[index - 1].text === undefined) {
           currentTime += 500;
         } else {
-          currentTime += messages[index - 1].text.length * 30;
+          currentTime += messages[index - 1].text.length * 35;
         }
       } else currentTime += 1000;
 
-      currentTime += 250;
+      currentTime += 200;
 
       setTimeout(
         function (msg) {
