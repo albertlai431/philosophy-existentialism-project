@@ -157,12 +157,12 @@ var MessagingSim = function (chat) {
     },
     {
       name: "",
-      text: "That's exactly my point: that love is inherently selfish.",
+      text: "That's exactly my point: love is inherently selfish.",
     },
     {
       name: "",
       text:
-        "By wanting her to say she loves you, you want her to tell you that you are important and at the center of the universe",
+        "You want her to say that she loves you, or that you are important and at the center of the universe",
     },
     {
       name: "",
@@ -195,7 +195,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        'This is because, as both people in the relationship are "being-foritself", you each experience the other as an object. ',
+        'This is because, as both people in that relationship are "being-foritself", you both each experience the other as an object. ',
     },
     {
       name: "",
@@ -252,7 +252,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        "Find someone else to make you feel empowered, the world is your oyster my friend!",
+        "Find someone else to make you feel empowered! The world is your oyster my friend.",
     },
     {
       name: "",

@@ -118,7 +118,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        "This is why you see the wives staying taking care of the baby, doing the menial housechores.",
+        "This is why you see the wives staying taking care of the baby and doing the menial housechores.",
     },
     {
       name: "",
@@ -131,7 +131,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        "Felicity, please! Motherhood is the most atrocious form of imprisonment.",
+        "Felicity, please! Motherhood is the most atrocious form of imprisonment!",
     },
     {
       name: "",
@@ -178,7 +178,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        "I must get to my next appointment now, but I hope this appointment was helpful!",
+        "I must get to my next appointment now, but I hope this appointment was helpful.",
     },
     {
       name: "Zoey",

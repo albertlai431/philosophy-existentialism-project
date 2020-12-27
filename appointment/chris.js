@@ -161,7 +161,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        "You were not born with an inherent identity, nor are you are not defined by your circumstances.",
+        "You were not born with an inherent identity, nor are you defined by your circumstances.",
     },
     {
       name: "",
@@ -180,7 +180,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        "Remember, though redefining yourself takes courage, it is also incredible worthwhile. I'm glad you've decided to attempt this endeavour.",
+        "Remember, though redefining yourself takes courage, it is also incredibly worthwhile. I'm glad you've decided to attempt this endeavour.",
     },
     {
       name: "Zoey",

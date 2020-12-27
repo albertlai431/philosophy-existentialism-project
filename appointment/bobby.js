@@ -200,7 +200,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        "Start trying new things, like joining clubs, making new friends, or even finding a girlfriend!",
+        "Start trying new things, like making new friends, facing your fears, or even finding a girlfriend!",
     },
     {
       name: "",

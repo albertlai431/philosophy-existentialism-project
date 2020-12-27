@@ -65,7 +65,7 @@ var MessagingSim = function (chat) {
     },
     {
       name: "Zoey",
-      text: "LOL WAIT it is bad what to deny my what??",
+      text: "LOL WAIT it is bad WHAT to deny my WHAT??",
     },
     {
       name: "",
@@ -102,7 +102,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        "This is called bad faith, when you deny either one of facticity or transcendence.",
+        "This is called bad faith, when you deny either one of your facticity or transcendence.",
     },
     {
       name: "",
@@ -136,7 +136,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        'Because you are really just deluding yourself when you say you "have to" do something, since there\'s nothing you really "have to" do.',
+        'You are really just deluding yourself when you say you "have to" do something, since there\'s nothing you really "have to" do.',
     },
     {
       name: "",
@@ -146,7 +146,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        "However, especially at such an important crossroads in your life, you have the opportunity to transcend yourself and become a better version of you!",
+        "However, especially at such an important crossroads in your life, you have the opportunity to transcend yourself and become a better version of yourself!",
     },
     {
       name: "Zoey",
@@ -190,7 +190,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        "Absolutely, that is what taking responsibility of your choices means!",
+        "Absolutely, that is what taking responsibility of your choices means.",
     },
     {
       name: "",

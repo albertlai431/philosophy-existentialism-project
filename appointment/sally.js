@@ -107,12 +107,12 @@ var MessagingSim = function (chat) {
     {
       name: "Zoey",
       text:
-        "And even if it does matter, I'm gonna die anyways, so nothing really matters",
+        "And even if it does matter, I'm gonna die anyways, so really, NOTHING really matters at all!",
     },
     {
       name: "Zoey",
       text:
-        "So rather than putting in this useless work, if I kill myself, I won't have to do any work and it won't make any difference",
+        "So rather than putting in this useless work, if I kill myself, I spare myself from having to do any annoying work",
     },
     {
       name: "",
@@ -189,7 +189,7 @@ var MessagingSim = function (chat) {
     },
     {
       name: "Zoey",
-      text: "LOL WAIT",
+      text: "LOL WAIT THATS ME",
     },
     {
       name: "Zoey",
