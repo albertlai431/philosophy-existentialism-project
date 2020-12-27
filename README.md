@@ -1,4 +1,4 @@
-# philosophy-existential-project
+# philosophy-existentialism-project
 
 In a parallel universe, all guidance counsellors have been replaced with philosophers! 👴🧓 And not just any old philosophers, but existentialist ones! 
 
