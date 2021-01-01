@@ -31,7 +31,7 @@ var MessagingSim = function (chat) {
     },
     {
       name: "Zoey",
-      text: "I am doing considerably poorer in physics and advanced functions.",
+      text: "I am doing considerably poorly in physics and advanced functions.",
     },
     {
       name: "Zoey",
@@ -44,7 +44,7 @@ var MessagingSim = function (chat) {
     {
       name: "Zoey",
       text:
-        "Mister Heidegger, I would like to talk to you about a discourse I held with my mother, precisely nine-teen hours prior.",
+        "Mister Heidegger, I would like to talk to you about a discourse I held with my mother, precisely nineteen hours prior.",
     },
     {
       name: "",
@@ -53,7 +53,7 @@ var MessagingSim = function (chat) {
     {
       name: "Zoey",
       text:
-        "Again, she was berating me for me for playing League of Legends eight hours straight.",
+        "Again, she was berating me for playing League of Legends eight hours straight.",
     },
     {
       name: "Zoey",
@@ -108,12 +108,12 @@ var MessagingSim = function (chat) {
     {
       name: "Zoey",
       text:
-        "Otherwise, I am always on guard and self-conscious due to the lack of predictability.",
+        "Otherwise, outside of that environment, I am always on guard and self-conscious due to the lack of predictability.",
     },
     {
       name: "Zoey",
       text:
-        "I'd much rather stay home, rather than be somewhere I don't have to be.",
+        "I'd much rather stay home, instead of be somewhere I don't have to be.",
     },
     {
       name: "",
@@ -200,7 +200,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        "Start trying new things, like making new friends, facing your fears, or even finding a girlfriend!",
+        "Start trying new things, such as making new friends, facing your fears, or even finding a girlfriend!",
     },
     {
       name: "",
@@ -225,7 +225,7 @@ var MessagingSim = function (chat) {
     },
     {
       name: "Zoey",
-      text: "Bye Mr. Heidegger.",
+      text: "Bye Mister Heidegger.",
     },
     {
       name: "",

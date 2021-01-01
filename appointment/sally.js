@@ -198,7 +198,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        "Ma chérie, we are all like Sisyphus. Our lives are filled with struggle, which ultimately amount to nothing.",
+        "Ma chérie, we are all like Sisyphus. Our lives are filled with struggle, which ultimately amount to nothing. It's absurd!",
     },
     {
       name: "Zoey",

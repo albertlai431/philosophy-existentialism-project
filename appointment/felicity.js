@@ -136,7 +136,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        "By bearing the baby you are riveted to your body and the worst horrors of female oppression are flung upon to you.",
+        "By bearing the baby, you are riveted to your body and the worst horrors of female oppression are flung upon to you.",
     },
     {
       name: "",

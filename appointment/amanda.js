@@ -257,7 +257,7 @@ var MessagingSim = function (chat) {
     {
       name: "Zoey",
       text:
-        "Not even, like, consider the location and cost of the program? Or I should study something I love?",
+        "You're not even gonna tell me like, consider the location and cost of the program? Or I should study something I love?",
     },
     {
       name: "",

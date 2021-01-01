@@ -122,7 +122,7 @@ var MessagingSim = function (chat) {
     },
     {
       name: "",
-      text: "Keep it brief, please!",
+      text: "Keep it brief, please",
     },
     {
       name: "Zoey",
@@ -140,7 +140,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        "So what you are saying when you love her, is that you want her to love you?",
+        "So what you are saying when you say you love her, is really that you want her to love you?",
     },
     {
       name: "",
@@ -195,7 +195,7 @@ var MessagingSim = function (chat) {
     {
       name: "",
       text:
-        'This is because, as both people in that relationship are "being-foritself", you both each experience the other as an object. ',
+        'This is because, as both people in that relationship are "being-for-itself", you both each experience the other as an object. ',
     },
     {
       name: "",
