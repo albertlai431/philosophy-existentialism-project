@@ -113,7 +113,7 @@ var MessagingSim = function (chat) {
     {
       name: "Zoey",
       text:
-        "I'd much rather stay home, instead of be somewhere I don't have to be.",
+        "I'd much rather stay home, instead of being somewhere I don't have to be.",
     },
     {
       name: "",
